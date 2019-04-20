@@ -16,24 +16,24 @@
       <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa fa-bars" aria-hidden="true"></i>
+              <i class="fa fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about-us">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">TESTIMONIALS</a>
+                <a class="nav-link " href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="#">CONTACT</a>
+                  <a class="nav-link " href="#footer">CONTACT</a>
                 </li>
             </ul>
           </div>
@@ -124,6 +124,47 @@
     </div>
     </section>
     <!--SOCIAL MEDIA-->
-  
+    <section id="social-media">
+      <div class="container text-center">
+          <p>FIND US ON SOCIAL MEDIA</p>
+          <div class="social-icons">
+            <a href="#"><img src="img/facebook-icon.png"></a>
+            <a href="#"><img src="img/instagram-icon.png"></a>
+            <a href="#"><img src="img/tweeter-icon.png"></a>
+            <a href="#"><img src="img/facebook-icon.png"></a>
+            <a href="#"><img src="img/facebook-icon.png"></a>
+          </div>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <section id="footer">
+      <img src="img/line.png" class="footer-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="img/demo-logo.png">
+            <p>Someting, text bla bla blablabalbalblaba bla blab ala abaab bblablabl </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <p><i class="fa fa-map-marker"></i>World Trade Center, Bangalore</p>
+            <p><i class="fa fa-phone"></i>+38164000001</p>
+            <p><i class="fa fa-envelope-o"></i>zemljodom@gmail.com</p>
+          </div>
+          <div class="col-md-4 footer-box">
+              <p><b>SUBSCRIBE NEWSLETTER</b></p>
+              <input type="email" class="form-control" placeholder="Your Email">
+              <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Website Made by GGKey</p>
+      </div>
+    </section>
+  <!----Smooth Scroll------->
+  <script src="smooth-scroll.js"></script>
+  <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 </html>
